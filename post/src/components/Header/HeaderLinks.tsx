@@ -31,7 +31,7 @@ const HeaderLinks = (props: HeaderLinksProps) => {
         </IconButton>
       </div>
 
-      <div className={styles[`header__links-container-wrapper`]}>
+      <div className={`${menuIsOpen ? (styles[`header__links-container-wrapper-active`]) : (styles[`header__links-container-wrapper`]) }`}>
         {links &&
           links.map((link: HeaderLink, i: number) => {
             return (
