@@ -5,7 +5,7 @@ const Footer = () => {
     
 
     return (
-        <Grid2 container  className={styles.footer}>
+        <Grid2 container className={styles.footer}>
             <Grid2 xs={12}>Jopa2</Grid2>
         </Grid2>
     )
