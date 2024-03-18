@@ -1,4 +1,5 @@
 @import "./../styles/variables";
+@import "./../styles/mixins";
 
 html,
 body {
@@ -14,5 +15,43 @@ body {
 }
 
 .main-container {
-    
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  height: 100%;
 }
+
+
+@include desktop-large {
+  .main-container {
+    max-width: 1200px;
+   
+  }
+}
+
+@include desktop {
+  .main-container {
+    max-width: 900px;
+  }
+}
+
+@include laptop {
+  .main-container {
+    max-width: 700px;
+  }
+}
+
+
+@include tablet {
+  .main-container {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
