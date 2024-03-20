@@ -42,8 +42,6 @@
 
 .card {
   &__title {
-    margin: 0 calc(10vw);
-    background-color: $color-purple;
     border-radius: 1rem;
     padding: 4px 8px;
 
@@ -55,7 +53,7 @@
     h5,
     h6 {
       font-size: calc(14px + 4 * (100vw - 320px) / 880);
-      text-align: center;
+      text-align: left;
     }
   }
   &__body {
@@ -92,7 +90,7 @@
       h4,
       h5,
       h6 {
-        font-size: calc(12px + 4 * (100vw - 320px) / 880);
+        font-size: calc(6px + 4 * (100vw - 320px) / 880);
       }
     }
   }
