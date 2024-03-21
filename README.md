@@ -1,2 +1,4 @@
 # ReactPost
-task
+this project based on npm !
+Use: 
+NPM run dev
